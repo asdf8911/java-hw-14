@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class ManagerTickets {
     // менеджер поиска по аэропорту вылета и аэропорту прилёта (даты не учитывайть)
     private RepositoryTickets repo;
-    protected Ticket[] tickets = new Ticket[0];
 
     public ManagerTickets(RepositoryTickets repository) { // конструктор принимает параметром репозиторий
         this.repo = repository;
